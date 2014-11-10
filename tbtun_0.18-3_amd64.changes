@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 10 Nov 2014 12:50:51 +0300
+Source: tbtun
+Binary: tbtun
+Architecture: source amd64
+Version: 0.18-3
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: ValdikSS <iam@valdikss.org.ru>
+Changed-By: root <root@valvpn>
+Description:
+ tbtun      - Userspace program to build 6in4 tunnel for Linux.
+Changes:
+ tbtun (0.18-3) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Update init scripts
+   * Fix for rules
+Checksums-Sha1:
+ 244b10fdcf9627c0aa8de15462846c4d79203599 783 tbtun_0.18-3.dsc
+ 46d660fd6bd120d89b1d299362427a9043f5608a 9676 tbtun_0.18-3.debian.tar.xz
+ b18d048b6b89813c9b736cc0d3906a5910fcabdb 8184 tbtun_0.18-3_amd64.deb
+Checksums-Sha256:
+ 31f245514a695b3f80fcc6601573bdd01770e8668230aa2bd9e1b617a49a8999 783 tbtun_0.18-3.dsc
+ 6886baee42717b4fa343b66ed896a1b060ba28564a2be557a22a90a4a2823dfe 9676 tbtun_0.18-3.debian.tar.xz
+ db257da84690d3c5b9f7bfd2f34620217d18f4e4b09e1d3dfb2e7d009ddc1079 8184 tbtun_0.18-3_amd64.deb
+Files:
+ e907dc9c7e262a445ea832d88e1aeb85 8184 net optional tbtun_0.18-3_amd64.deb
+ e6b4db1c6ebfb04458ca35568e33bf78 783 net optional tbtun_0.18-3.dsc
+ 9b05662d94ffd588f3daa3fb657f26fc 9676 net optional tbtun_0.18-3.debian.tar.xz
